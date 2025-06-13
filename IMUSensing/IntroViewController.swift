@@ -8,7 +8,7 @@ class IntroViewController: UIViewController, UITableViewDelegate, UITableViewDat
 
     lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "PeriSense"
+        label.text = "ThirstSense"
         label.font = UIFont.boldSystemFont(ofSize: 36)
         label.textAlignment = .center
         return label
@@ -16,7 +16,7 @@ class IntroViewController: UIViewController, UITableViewDelegate, UITableViewDat
 
     lazy var subtitleLabel: UILabel = {
         let label = UILabel()
-        label.text = "Your AirPods can now be used\n to control your phone hands free!"
+        label.text = "Your AirPods can now be used\n to understand your hydration level!"
         label.font = UIFont.systemFont(ofSize: 14)
         label.textAlignment = .center
         label.textColor = .gray
